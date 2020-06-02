@@ -1,0 +1,13 @@
+/home/alexandr/Рабочий стол/c_sharp/interfaces/bin/Debug/netcoreapp3.1/interfaces
+/home/alexandr/Рабочий стол/c_sharp/interfaces/bin/Debug/netcoreapp3.1/interfaces.deps.json
+/home/alexandr/Рабочий стол/c_sharp/interfaces/bin/Debug/netcoreapp3.1/interfaces.runtimeconfig.json
+/home/alexandr/Рабочий стол/c_sharp/interfaces/bin/Debug/netcoreapp3.1/interfaces.runtimeconfig.dev.json
+/home/alexandr/Рабочий стол/c_sharp/interfaces/bin/Debug/netcoreapp3.1/interfaces.dll
+/home/alexandr/Рабочий стол/c_sharp/interfaces/bin/Debug/netcoreapp3.1/interfaces.pdb
+/home/alexandr/Рабочий стол/c_sharp/interfaces/obj/Debug/netcoreapp3.1/interfaces.csprojAssemblyReference.cache
+/home/alexandr/Рабочий стол/c_sharp/interfaces/obj/Debug/netcoreapp3.1/interfaces.AssemblyInfoInputs.cache
+/home/alexandr/Рабочий стол/c_sharp/interfaces/obj/Debug/netcoreapp3.1/interfaces.AssemblyInfo.cs
+/home/alexandr/Рабочий стол/c_sharp/interfaces/obj/Debug/netcoreapp3.1/interfaces.csproj.CoreCompileInputs.cache
+/home/alexandr/Рабочий стол/c_sharp/interfaces/obj/Debug/netcoreapp3.1/interfaces.dll
+/home/alexandr/Рабочий стол/c_sharp/interfaces/obj/Debug/netcoreapp3.1/interfaces.pdb
+/home/alexandr/Рабочий стол/c_sharp/interfaces/obj/Debug/netcoreapp3.1/interfaces.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wuCF1Q8NdhFtfDJHR+BoEji60b3OlIclOBtn2GRZ8DMUA8x5cj9BP1iCHjXYuYaJGfe/gKeIBRrA0qrgKhqxOQ==",
+  "success": true,
+  "projectFilePath": "/home/alexandr/Рабочий стол/c_sharp/interfaces/interfaces.csproj",
+  "expectedPackageFiles": [
+    "/home/alexandr/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
