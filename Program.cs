@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace interfaces
 {
@@ -20,11 +19,11 @@ namespace interfaces
         }
     }
 
-    enum ClassNameSet
+    enum ClassNameSet : byte
     {
         Travaller, Warrior, Mage, Archer, Rogue
     }
-    enum ProfessionSet
+    enum ProfessionSet : byte
     {
         Commoner, Knight, Berserker, Elementalist, Necromancer, Healer, Sniper, Hunter, Assassin, Ranger
     }
@@ -43,8 +42,8 @@ namespace interfaces
     }
     class Character : ICharacter
     {
-        public int ClassName { get; set; }
-        public int Profession { get; set; }
+        public ClassNameSet ClassName { get; set; }
+        public ProfessionSet Profession { get; set; }
         public double MoveSpeed { get; set; }
 
         public Character()
@@ -53,7 +52,7 @@ namespace interfaces
             Profession = ProfessionSet.Commoner;
             MoveSpeed = MoveSpeedSet.Commoner;
         }
-        public Character(int className)
+        public Character(ClassNameSet className)
         {
             ClassName = className;
             switch (className)
@@ -87,7 +86,7 @@ namespace interfaces
                     break;
             }
         }
-        public Character(int className, int profession)
+        public Character(ClassNameSet className, ProfessionSet profession)
         {
             ClassName = className;
             Profession = profession;
@@ -122,18 +121,19 @@ namespace interfaces
                     break;
             }
         }
-        public Move()
+        public void Move()
         {
 
         }
-        public Hit()
+        public void Hit()
         {
-
+            Console.WriteLine("{0} deal {1} damage with the {2}");
         }
     }
 
-    class Warrior : Character
+    class Warrior
     {
+        public IWeapon Weapon { get; set; }
         public Warrior()
         {
             Weapon = new Axe();
@@ -206,8 +206,8 @@ namespace interfaces
 
     interface ICharacter
     {
-        int ClassName { get; set; }
-        int Profession { get; set; }
+        ClassNameSet ClassName { get; set; }
+        ProfessionSet Profession { get; set; }
         double MoveSpeed { get; set; }
     }
 }
