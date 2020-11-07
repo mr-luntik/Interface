@@ -112,16 +112,9 @@ namespace interfaces
     {
         public string Name { get; set; }
         public double Damage { get; set; }
-        public Staff()
-        {
-            Name = "Generic staff";
-            Damage = 7.0;
-        }
-        public Staff(string name) : this()
-        {
-            Name = name;
-        }
-        public Staff(string name, double damage) : this()
+        public Staff() : this("Generic staff") { }
+        public Staff(string name) : this(name, 7d) { }
+        public Staff(string name, double damage)
         {
             Name = name;
             Damage = damage;
@@ -133,16 +126,9 @@ namespace interfaces
         public string Name { get; set; }
         public double Damage { get; set; }
 
-        public Axe()
-        {
-            Name = "Generic axe";
-            Damage = 15.0;
-        }
-        public Axe(string name) : this()
-        {
-            Name = name;
-        }
-        public Axe(string name, double damage) : this()
+        public Axe() : this("Generic axe") { }
+        public Axe(string name) : this(name, 15d) { }
+        public Axe(string name, double damage)
         {
             Name = name;
             Damage = damage;
@@ -151,7 +137,7 @@ namespace interfaces
 
     interface IWeapon
     {
-        string Name { get; set; }
-        double Damage { get; set; }
+        string Name { get; }
+        double Damage { get; }
     }
 }
